@@ -48,21 +48,9 @@ NovelAI 작가 태그 조합의 그림을 **둘씩 나란히 보여주고 마음
 | Steps | 28 | 그대로 | 28 이하 무료 범위 |
 | 한 번에 장수 | 1장 (`n_samples: 1`) | 그대로 | 무료 조건 충족 (코드 확인) |
 
-### 도구에 넣을 기본 프롬프트
+### 도구에 넣을 프롬프트·네거티브
 
-`{artist}` 자리에 작가 조합이 들어간다. 끝의 4개는 NovelAI 웹의 품질 태그(V4.5 Full)를 손으로 넣은 것 (FACTS N10).
-
-```
-{artist}, 1girl, solo, mature female, upper body, looking at viewer, neutral expression, black hair, short hair, blue eyes, white shirt, simple background, white background, location, very aesthetic, masterpiece, no text
-```
-
-### 도구에 넣을 네거티브
-
-Human Focus 프리셋(V4.5 Full) 목록 + 우리 추가분 (FACTS N18, P-001).
-
-```
-lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, negative space, blank page, @_@, mismatched pupils, glowing eyes, bad anatomy, signature, artist name, nsfw
-```
+→ **[P-002](../prompts/P-002_StyleLab_기본.md)** (베이스 / 캐릭터 / 네거티브로 나눈 확정본)
 
 ## 4. 제안하는 사용 순서
 
