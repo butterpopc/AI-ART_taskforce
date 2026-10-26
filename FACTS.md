@@ -23,6 +23,7 @@
 | N14 | V4/V4.5는 **T5 토크나이저**, 기본+캐릭터 프롬프트 합계 **약 512 T5 토큰**. 이모지·일본어 등 대부분의 유니코드 문자는 프롬프트로 지원 안 됨 → **영문 태그만** | 문서 확인 | 2026-10-26 | [Models](https://docs.novelai.net/en/image/models) |
 | N15 | 자동완성은 태그 제안과 함께 **모델이 그 태그를 얼마나 아는지 표시(marker)** 를 보여줌 → 작가 태그 인식 여부 판단에 사용 | 문서 확인 | 2026-10-26 | [Tagging](https://docs.novelai.net/en/image/tags) |
 | N16 | Danbooru 태그의 밑줄은 NovelAI 입력에서 **공백**으로 쓴다 (`puuzaki_puuna` → `puuzaki puuna`). 소문자 권장 | 문서 확인(제3자) — Gemini R-001, 컨트롤 타워 재확인 불가 | 2026-10-26 | [R-001](research/R-001_작가태그조사.md) |
+| N16-상충 | NAI Style Lab은 공백을 **밑줄**로 바꿔 보낸다 (`artist:puuzaki_puuna`). 개발자는 "NovelAI가 받는 형태"라고 주석에 적었고 웹과 같은 그림이 나온다고 주장. 공백/밑줄 둘 다 통하는지는 **미확인** | 코드 확인(도구), 효과 미확인 | 2026-10-26 | [T-001](tools/T-001_nai-style-lab.md) |
 | N17 | `artist:name`과 `artist: name`(콜론 뒤 공백)은 같은 결과 | 커뮤니티 실험 — Gemini R-001, 재확인 불가 | 2026-10-26 | 같은 문서 |
 | N18 | UC 프리셋(V4.5 Full): **Heavy** = lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, negative space, blank page / **Light** = Heavy보다 적은 목록 / **Human Focus** = Heavy + @_@, mismatched pupils, glowing eyes, bad anatomy / **Furry Focus** 별도. 권장 프리셋은 기본으로 켜져 있음 | 문서 확인 | 2026-10-26 | [Undesired Content](https://docs.novelai.net/en/image/undesiredcontent) |
 
