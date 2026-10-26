@@ -20,15 +20,19 @@
 | N11 | 수치 가중치 문법 `1.5::태그 ::` (V4 이상). 0~1 사이는 약화. **혼합 비율이 아니라 각 태그의 영향력**이며 합이 1일 필요 없음. 음수 가중치는 V4.5 이상 | 문서 확인 | 2026-10-26 | [Strengthening & Weakening](https://docs.novelai.net/en/image/strengthening-weakening) |
 | N12 | `{ }` = ×1.05 강화, `[ ]` = ÷1.05 약화, 중첩 시 곱해짐 | 문서 확인 | 2026-10-26 | 같은 문서 |
 | N13 | NovelAI는 외부 LoRA를 불러올 수 없음 | 추정(여러 출처 일치, 공식 문구 미확인) | 2026-10-26 | — |
+| N14 | V4/V4.5는 **T5 토크나이저**, 기본+캐릭터 프롬프트 합계 **약 512 T5 토큰**. 이모지·일본어 등 대부분의 유니코드 문자는 프롬프트로 지원 안 됨 → **영문 태그만** | 문서 확인 | 2026-10-26 | [Models](https://docs.novelai.net/en/image/models) |
+| N15 | 자동완성은 태그 제안과 함께 **모델이 그 태그를 얼마나 아는지 표시(marker)** 를 보여줌 → 작가 태그 인식 여부 판단에 사용 | 문서 확인 | 2026-10-26 | [Tagging](https://docs.novelai.net/en/image/tags) |
+| N16 | Danbooru 태그의 밑줄은 NovelAI 입력에서 **공백**으로 쓴다 (`puuzaki_puuna` → `puuzaki puuna`). 소문자 권장 | 문서 확인(제3자) — Gemini R-001, 컨트롤 타워 재확인 불가 | 2026-10-26 | [R-001](research/R-001_작가태그조사.md) |
+| N17 | `artist:name`과 `artist: name`(콜론 뒤 공백)은 같은 결과 | 커뮤니티 실험 — Gemini R-001, 재확인 불가 | 2026-10-26 | 같은 문서 |
 
 ## 작가 태그 인식 여부
 
-| 작가 태그 | NovelAI 인식 | 비고 |
-|---|---|---|
-| ciloranko | 미확인 | 자동완성으로 확인 필요 |
-| atdan | 미확인 | 〃 |
-| lam (ramdayo) | 미확인 | 〃 |
-| puuzaki puuna | 미확인 | 사용자 선호 작가. 정확한 태그 표기 미확인 |
+| 작가 태그 (NovelAI 입력 표기) | Danbooru 원문 | 규모 (R-001, 재확인 불가) | NovelAI 인식 |
+|---|---|---|---|
+| `artist:ciloranko` | `ciloranko` | 2024-11 상위 2,000 밖 | 미확인 — 실험 1에서 자동완성 표시로 확인 |
+| `artist:atdan` | `atdan` | 531위 | 〃 |
+| `artist:lam (ramdayo)` | `lam_(ramdayo)` | 상위 2,000 밖 | 〃 |
+| `artist:puuzaki puuna` | `puuzaki_puuna` | 1,372위 | 〃 (사용자 선호 작가) |
 
 ## ComfyUI / 로컬 (현재 보류 중, 참고용)
 
