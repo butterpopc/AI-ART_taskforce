@@ -1,4 +1,4 @@
-# EXP-01 작가 화풍 4종 비교
+# EXP-01 작가 화풍 6종 비교
 
 - 지시서: [B-001](../../briefs/B-001_실험1_작가비교.md)
 - 상태: **대기 중** (사용자 실행 전)
@@ -6,7 +6,7 @@
 ## 조건
 
 - 모델: V4.5 Full / Quality Tags ON / Steps ≤28 / 시드: (기입)
-- 프롬프트: [P-001](../../prompts/P-001_화풍비교_기본.md)
+- 프롬프트: [P-001](../../prompts/P-001_화풍비교_기본.md) v2 (`mature female` 포함 / 자동완성 안 떠서 뺐다면 여기 표기: )
 
 ## 결과
 
@@ -18,6 +18,8 @@
 | B | atdan | | |
 | C | lam (ramdayo) | | |
 | D | puuzaki puuna | | |
+| E | ishikei | | |
+| F | yd (orange maru) | | |
 
 ## 판정 (컨트롤 타워 기입)
 
