@@ -2,7 +2,7 @@
 
 - 도구: [T-001](../../tools/T-001_nai-style-lab.md) · 프롬프트: [P-002](../../prompts/P-002_StyleLab_기본.md)
 - 작성: 컨트롤 타워 · 2026-10-26
-- 상태: **작가 등록 대기**
+- 상태: **사용자 실행 중** (2026-10-26 밤~). **1차 풀은 [POOL1_사용자목록](POOL1_사용자목록.md)** — 아래 컨트롤 타워 수집 풀은 2차 투입 후보
 
 ## 작가 선정 방식과 검증
 
@@ -133,7 +133,7 @@ yamamoto souichirou, ohisashiburi, sheya, dishwasher1910, spacezin, do m kaeru, 
 ### A-2. 같은 글에서 쓰였지만 목록 미등재·게시물 적음 (29명) — 인식 약할 수 있음
 
 ```
-channel (caststation), mori taishi, rifleman1130, karyln, mizu cx, quezify, magotsuki (hurray), noyu, blackbox, haragaita i, seapall, nyte tyde, ao (ao0 0nemu), hanaseto, others (gogo-o), aoseagrass, sapysha, abae, gemi ningen, hiita (hitta 99), izuru (timbermetal), sho (sho lwlw), tekito midori, k.pumpkin, kkuem, yueepon, wagash (dagashiya), j.k, dog-san, hyulla
+channel (caststation), mori taishi, rifleman1130, karyln, mizu cx, quezify, magotsuki (hurray), noyu, blackbox, haragaita i, seapall, nyte tyde, ao (ao0 0nemu), hanaseto, others (gogo-o), aoseagrass, sapysha, abae, gemi ningen, hiita (hitta 99), izuru (timbermetal), sho (sho lwlw), tekito midori, k.pumpkin, kkuem, yueepon, wagashi (dagashiya), j.k, dog-san, hyulla
 ```
 
 ### B. "shiny skin, realistic" 공통 프롬프트로 정리된 NAI 4.5 작가 목록 — 목록 확인 (73명)
