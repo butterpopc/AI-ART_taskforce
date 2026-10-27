@@ -1,0 +1,53 @@
+# P-003 NAI Style Lab 공통 실험 환경 (P-002 대체)
+
+- 작성: 컨트롤 타워 · 2026-10-27 · 요청: "적당히 예쁘게 나오는 공통 프롬프트"
+- 용도: [T-001](../tools/T-001_nai-style-lab.md) NAI Style Lab의 모든 대결 (1차 풀: [POOL1](../experiments/EXP-02_StyleLab/POOL1_사용자목록.md))
+- P-002와 차이: 비교에 방해되지 않는 선에서 **보기 좋은 구도·외형**을 넣음. 화풍을 덮어쓰는 태그(`realistic`, `shiny skin`, 조명·채색 태그)는 **일부러 뺌** — 작가 차이가 보여야 하므로
+
+## 베이스 프롬프트
+
+```
+{artist}, 1girl, solo, upper body, looking at viewer, head tilt, simple background, grey background, very aesthetic, masterpiece, no text
+```
+
+## 캐릭터 1 프롬프트
+
+```
+girl, mature female, long hair, wavy hair, black hair, hair over shoulder, swept bangs, red eyes, half-closed eyes, light smile, closed mouth, lips, earrings, black dress, off-shoulder dress, bare shoulders, collarbone
+```
+
+## 캐릭터 1 네거티브
+
+비워 둔다.
+
+## 네거티브
+
+```
+lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, negative space, blank page, @_@, mismatched pupils, glowing eyes, bad anatomy, signature, artist name, blurry, nsfw
+```
+
+## 설정
+
+| 항목 | 값 | 근거 |
+|---|---|---|
+| 모델 | **V4.5 Full** | D-001, 무료 범위 (FACTS N8) |
+| 크기 | 세로 832×1216 | Normal 크기 (FACTS N8) |
+| Steps | 28 | 무료 상한 |
+| 샘플러 | k_euler_ancestral (도구 기본) | — |
+| Guidance(CFG) | **6** | 채널 V4.5F 실사용 조합들이 5~8 사용 ([모음집](https://arca.live/b/aiart/160585885), 게시글 확인). 그 중간값 — 추정 |
+| CFG Rescale | **0.2** | 같은 글들이 0~0.6 사용. 낮은 쪽 — 추정 |
+| 시드 | 고정 (도구가 자동) | — |
+
+## 태그 선택 근거
+
+- 모든 태그는 Danbooru 태그 목록(`danbooru.csv`)에 존재 확인. 예외: `nsfw`는 Danbooru 태그가 아님(등급은 별도 체계) — 커뮤니티에서 네거티브로 흔히 쓰지만 효과는 **미확인**
+- 인원수(`1girl`)는 베이스, 캐릭터 칸은 숫자 없이 `girl` (공식 문서, 문서 확인)
+- 외형(검은 웨이브 장발, 붉은 눈, 반쯤 뜬 눈, 오프숄더 검은 드레스): [D-005](../decisions/D-005_취향방향.md)(성숙미)를 반영한 **비교용 임시 외형**. 어깨·쇄골·입술은 피부 광택·입체 표현이 드러나는 부위 (추정). 실제 자캐 외형 아님
+- 회색 배경: 흰 배경보다 피부 명암이 잘 보이고, 배경 묘사 차이로 비교가 흐려지는 것을 막음 (추정)
+- `head tilt`: 정면 증명사진 느낌을 줄이는 최소한의 포즈
+- 뺀 것: 조명 태그(`soft lighting` 등은 Danbooru 목록에 없음), `shiny skin`/`realistic`(모든 작가를 같은 질감으로 덮어씀), 배경 묘사(작가마다 크게 달라져 비교 방해)
+
+## 바꾸지 말 것
+
+- 대결 도중 프롬프트·설정을 바꾸면 이미 매긴 순위와 새 그림의 조건이 달라진다
+- 바꾼다면 도구의 **다시 그리기 → 전체**로 모든 그림을 같은 조건으로 다시 그린다 (순위는 유지, 그림만 교체 — 도구 README)
