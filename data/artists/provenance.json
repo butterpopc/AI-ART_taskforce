@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "dataset_revision": "41aa4590032d1f742b051e5bbfe6094dc21aa854",
+  "tag_revision": "209b1dd76b69e95ba6b1619ea5d13e68446607b7",
+  "tag_sha256": "f936684fa0b041e9a55d35f2052588e28d95eef8672be6829241f8b1a7214732",
+  "completed": [
+    {
+      "path": "data/train-00000-of-00043.parquet",
+      "size": 185482102,
+      "sha256": "dbb17492300ec0223292be3319aef70676807716591162cb75aff0f15ad0d911",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00001-of-00043.parquet",
+      "size": 186013344,
+      "sha256": "a45660e66efa40e58bb7b1252c157794df18776ff67cb94da46ab6b34337dce0",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00002-of-00043.parquet",
+      "size": 187250996,
+      "sha256": "c2fd7167d3a4781efc3ca29d527076ab78d6c748a212674d0cdf042dcb00f389",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00003-of-00043.parquet",
+      "size": 188240233,
+      "sha256": "131dbc73b50c778cb3ed8e8986b4678f694f7b1925b56f7ccfb658d72e678736",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00004-of-00043.parquet",
+      "size": 188074656,
+      "sha256": "f647b4a91cc758e53318be34c57c738fe0643127eb72d6d7f2b5abd84e240e1c",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00005-of-00043.parquet",
+      "size": 189167455,
+      "sha256": "5c8ef6e4717714496792cabba60818b79ebe76210eab2361503cbce05bf677b8",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00006-of-00043.parquet",
+      "size": 187316721,
+      "sha256": "78166092984b93377c03be69097f436f87356f06913253cf2e0bc56d4ee95e0a",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00007-of-00043.parquet",
+      "size": 188788438,
+      "sha256": "9cb98616ae946a098f8611983ce043c23f14f59dceca09d6a1d6cc2d9c7f6c7d",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00008-of-00043.parquet",
+      "size": 188483697,
+      "sha256": "8abed5ce8cbce560b9c9263e4c4e2f89c39df36ae309a7004c4e27467205f0b3",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00009-of-00043.parquet",
+      "size": 188181193,
+      "sha256": "ac2ccb39992cb915f937d7360f6d257bbc6ea83119cfd22a77f9a03761da9f27",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00010-of-00043.parquet",
+      "size": 188023998,
+      "sha256": "195ab36ebadc26c33e07a713b9d35822b1c5ca15a3596964a16a6c4df13fa1eb",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00011-of-00043.parquet",
+      "size": 187556200,
+      "sha256": "f129f7e7ba3f79fa93a126310a4b0839c2f37214e99c8f9bcb49415fcb1a7631",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00012-of-00043.parquet",
+      "size": 188456574,
+      "sha256": "dab4e4e6b263fa73b35a50562bdafeaeb4e27cdf6f80825da3432abe8fff10d5",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00013-of-00043.parquet",
+      "size": 187121749,
+      "sha256": "d85a05ae97259c7d24b64ce141d5f38abd13f0e5f4178b15616c3c79aea0db76",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00014-of-00043.parquet",
+      "size": 186460818,
+      "sha256": "2868994d726371a41f3647490d47020d3daad2cfb057b4e5ed386b464358fbbf",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00015-of-00043.parquet",
+      "size": 185518309,
+      "sha256": "e864f17400d8084ec99555318b0b9d7b842558ddb1ba71f85101df6e3ad51ea7",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00016-of-00043.parquet",
+      "size": 183722967,
+      "sha256": "cbbf9e24877f523f64714406345aaca86ef1c913966c8de9f07eb95fe26b86d6",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00017-of-00043.parquet",
+      "size": 183507569,
+      "sha256": "ee47cf5a2db2307f1b943dac2c6373355d7f3330c6a4f53982b2876387c999f4",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00018-of-00043.parquet",
+      "size": 180973845,
+      "sha256": "a26393a4d40844bd41e0921aa408777eb7d41fd7c8e80a7d43e6512241d1d9a2",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00019-of-00043.parquet",
+      "size": 181053643,
+      "sha256": "e7c564f57674d26fced9ef1bcf379a218da7be6bfe26e4a9c60f444dd37e3a6a",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00020-of-00043.parquet",
+      "size": 181493839,
+      "sha256": "b1eec79f12eb5ae5203f10c81e60a95fafbe7f9b1c8dac84bf3b87f3119ec0be",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00021-of-00043.parquet",
+      "size": 180696697,
+      "sha256": "5e007238aea83299460098a373ae92afeaa20a9b6ee5b320a8a22ece4e4fc10a",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00022-of-00043.parquet",
+      "size": 181757636,
+      "sha256": "250831b61986799af5f7cfccfc37714057de19d8e9faaf9ed644926a09bb9856",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00023-of-00043.parquet",
+      "size": 181759966,
+      "sha256": "aea094797443256b4d7b4913b5d9091e21c49638c42b92c974fb305978699572",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00024-of-00043.parquet",
+      "size": 180221332,
+      "sha256": "3b971e10e05846f8482ef1be4a3292c064de2f381361ffb8a63974db9f6240a4",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00025-of-00043.parquet",
+      "size": 182606681,
+      "sha256": "6d35bf56e0cbeea5ef8f3442a380151d137bd48c9f4d8b60da870f5f2b761c50",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00026-of-00043.parquet",
+      "size": 182793724,
+      "sha256": "a101481d49db5653bc74c63959387da3c78796a3293098043c826e9c22b13946",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00027-of-00043.parquet",
+      "size": 182556723,
+      "sha256": "1e30e45a63853e40343a73b7dc0cc0802a239a0d9eb5e55a5aded292d3174892",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00028-of-00043.parquet",
+      "size": 178701712,
+      "sha256": "ed4f0d3d305966579bef4aebd25bc1d8acc3217b8723ec3a947453ac87fb1ad7",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00029-of-00043.parquet",
+      "size": 175612117,
+      "sha256": "a67ee4cb53c32cb1edc37c42ed9a8cba545b379d3c12e0ae41ad727e793d79c7",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00030-of-00043.parquet",
+      "size": 175287254,
+      "sha256": "5d0d57e17ce934f5e65407e37492158df6b445dc4220fb836ead8ba03aef4217",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00031-of-00043.parquet",
+      "size": 172750804,
+      "sha256": "ae96b3f89b9ec92ff1ccece0e52fc49db895230395f5dff7006f1c67cc1c2b23",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00032-of-00043.parquet",
+      "size": 167085440,
+      "sha256": "6cc682c8d7619a2e9089f9e0d809a029e499e8a2319ce2ce42366c1aa64488e9",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00033-of-00043.parquet",
+      "size": 161473806,
+      "sha256": "bfea53ed4dbe1d0931bd599d223669b31ff556c10da78456c2b6394442106340",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00034-of-00043.parquet",
+      "size": 159080700,
+      "sha256": "5fa8cb1d3d426d0a784cda84662a8c7e2639ac296d879154790e597a92c3eb88",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00035-of-00043.parquet",
+      "size": 158062319,
+      "sha256": "deead2d2cde739dbc631dcc367a538ede34de69de9cec038fcffe3011076d59c",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00036-of-00043.parquet",
+      "size": 157762305,
+      "sha256": "3c01c4b7d232b6faf7824c4692884b88993754cc1f403c7caeb9f42a60e33ec2",
+      "rows": 211937
+    },
+    {
+      "path": "data/train-00037-of-00043.parquet",
+      "size": 156947077,
+      "sha256": "9beeb7b445035c6d28a3a3edba6abc5e7467d1b950eddddd31e2032ec50f7146",
+      "rows": 211936
+    },
+    {
+      "path": "data/train-00038-of-00043.parquet",
+      "size": 157168279,
+      "sha256": "cbd722013f19b9760a4577cc6a7c6f30c3a0f5d2d320cd224c78c0eb36f738d3",
+      "rows": 211936
+    },
+    {
+      "path": "data/train-00039-of-00043.parquet",
+      "size": 154014093,
+      "sha256": "6455bfa026b5a6d4bd8f34130c61cc02bbf7451055c6ea2744207b55d621002e",
+      "rows": 211936
+    },
+    {
+      "path": "data/train-00040-of-00043.parquet",
+      "size": 152967517,
+      "sha256": "cbe1bd3cc0d07e7280c9a3cb5a1e0b21efc7c9630a5ebdcc3002a9ab311b7bce",
+      "rows": 211936
+    },
+    {
+      "path": "data/train-00041-of-00043.parquet",
+      "size": 147300491,
+      "sha256": "8ba3d5eae01dec1938e8ad0038efb1854ab0e10c3ec11dcfd579eac7fe3eff2c",
+      "rows": 211936
+    },
+    {
+      "path": "data/train-00042-of-00043.parquet",
+      "size": 144082875,
+      "sha256": "6e29f3c1de9798c6822942b47708caeb4b7eea10d1bac9774d160a6ae0cb69db",
+      "rows": 211936
+    }
+  ],
+  "rows": 9113285,
+  "deleted": 487053,
+  "kept": 8626232,
+  "multi_artist": 111565,
+  "started_at": "2026-10-28T14:20:49.930404+00:00",
+  "finished_at": "2026-10-28T14:42:13.350626+00:00",
+  "year_baselines": [
+    {
+      "연도": 2005,
+      "게시물 수": 14602,
+      "점수 중앙값": 6.0
+    },
+    {
+      "연도": 2006,
+      "게시물 수": 58585,
+      "점수 중앙값": 4.0
+    },
+    {
+      "연도": 2007,
+      "게시물 수": 68667,
+      "점수 중앙값": 4.0
+    },
+    {
+      "연도": 2008,
+      "게시물 수": 181472,
+      "점수 중앙값": 5.0
+    },
+    {
+      "연도": 2009,
+      "게시물 수": 188248,
+      "점수 중앙값": 6.0
+    },
+    {
+      "연도": 2010,
+      "게시물 수": 200982,
+      "점수 중앙값": 6.0
+    },
+    {
+      "연도": 2011,
+      "게시물 수": 228843,
+      "점수 중앙값": 6.0
+    },
+    {
+      "연도": 2012,
+      "게시물 수": 250512,
+      "점수 중앙값": 6.0
+    },
+    {
+      "연도": 2013,
+      "게시물 수": 238266,
+      "점수 중앙값": 7.0
+    },
+    {
+      "연도": 2014,
+      "게시물 수": 293101,
+      "점수 중앙값": 7.0
+    },
+    {
+      "연도": 2015,
+      "게시물 수": 325336,
+      "점수 중앙값": 10.0
+    },
+    {
+      "연도": 2016,
+      "게시물 수": 336731,
+      "점수 중앙값": 13.0
+    },
+    {
+      "연도": 2017,
+      "게시물 수": 367419,
+      "점수 중앙값": 15.0
+    },
+    {
+      "연도": 2018,
+      "게시물 수": 373517,
+      "점수 중앙값": 14.0
+    },
+    {
+      "연도": 2019,
+      "게시물 수": 343853,
+      "점수 중앙값": 16.0
+    },
+    {
+      "연도": 2020,
+      "게시물 수": 524684,
+      "점수 중앙값": 17.0
+    },
+    {
+      "연도": 2021,
+      "게시물 수": 710430,
+      "점수 중앙값": 16.0
+    },
+    {
+      "연도": 2022,
+      "게시물 수": 880256,
+      "점수 중앙값": 24.0
+    },
+    {
+      "연도": 2023,
+      "게시물 수": 1041350,
+      "점수 중앙값": 19.0
+    },
+    {
+      "연도": 2024,
+      "게시물 수": 1522445,
+      "점수 중앙값": 11.0
+    },
+    {
+      "연도": 2025,
+      "게시물 수": 476933,
+      "점수 중앙값": 8.0
+    }
+  ],
+  "taste_q3": 0.029533544948931775,
+  "zero_post_artists": [
+    "comodomodo"
+  ],
+  "bb_baalbuddy": {
+    "score_mean": 32.54267371601208,
+    "score_median": 24.0,
+    "score_norm": 1.9464649119007102,
+    "fav_mean": 38.75453172205438,
+    "low_ratio": 0.9773413897280967,
+    "taste_ratio": 0.017749244712990938,
+    "g": 0.12348942598187311,
+    "s": 0.6654078549848943,
+    "q": 0.11933534743202417,
+    "e": 0.09176737160120846,
+    "last_post": "2025-04-12T05:44:03.002000+00:00",
+    "posts": 2648
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "pyarrow": "26.0.0",
+  "requests": "2.34.2",
+  "script_sha256": "16f1e8d1c3a45434389acefc35c6900c1436b5734ec414641760df838f4a066d"
+}
