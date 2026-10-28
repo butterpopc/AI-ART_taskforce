@@ -1,0 +1,81 @@
+# EXP-02 결과 1 — 조합 대결 + 진화 6세대 (2026-10-28)
+
+- 출처: 사용자가 보낸 NAI Style Lab `state.json` (API 키는 들어 있지 않은 파일). 분석과 기록은 컨트롤 타워
+- 설정: V4.5 Full, 프롬프트 [P-003](../../prompts/P-003_StyleLab_실험환경.md), **시드 3561572116 하나**, 조합당 작가 1~4명, 가중치 0.8~1.8, 작가 풀 213명
+- 진행: 조합 200개 평가, 투표 **2,009번**(배치 투표 1,954 + 비슷함 45 + 대결 10), 진화 6세대 완료. 앱은 7세대 진행을 안내하는 중
+- 확인 수준: 순위와 수치는 파일에서 계산함(**실측**). 그림체 특징은 아직 그림을 보지 않아서 **미확인**
+
+## 진화 기록 (세대마다 새 조합 20개)
+
+| 세대 | 상위 30% 진입 | 탈락 |
+|---|---|---|
+| 1 | 14 | 6 |
+| 2 | 13 | 7 |
+| 3 | 15 | 5 |
+| 4 | 11 | 9 |
+| 5 | 12 | 8 |
+| 6 | 11 | 9 |
+
+→ 6세대까지 매번 새 조합이 10개 이상 상위권에 들어감 = **아직 수렴하지 않음** (진화를 더 하면 순위가 계속 바뀔 수 있음)
+
+## 상위 20개
+
+| 순위 | 점수 | 대결 수 | 조합 (작가 가중치) | 이미지 파일 |
+|---|---|---|---|---|
+| 1 | 12400 | 6 | himemura_saki 0.9, hyocorou 1.6, kim_hana 0.9, quasarcake 1.3 | `dfe212f166.png` |
+| 2 | 12280 | 7 | quasarcake 1.0 | `bf75877902.png` |
+| 3 | 12160 | 7 | hanagata 1.4, dishwasher1910 0.8, some1else45 1.3, sparrowl 1.4 | `97e2bdb1d5.png` |
+| 4 | 12129 | 7 | yomu_(sgt_epper) 1.4, jacknife 1.5, pochi_(pochi-goya) 1.4 | `fc6431ca00.png` |
+| 5 | 12098 | 7 | furau 1.0, hatsushiro_mamimu 1.6 | `ecb02f0f87.png` |
+| 6 | 12036 | 7 | sugano_manami 1.5, blue_gk 1.5, puuzaki_puuna 1.6, misaka_12003-gou 1.2 | `85299ddaf7.png` |
+| 7 | 11961 | 8 | cola_(gotouryouta) 1.1 | `d03ac37c41.png` |
+| 8 | 11950 | 7 | messikid 1.5, ie_(raarami) 1.3, ikuhana_niiro 1.1, creayus 1.3 | `e12c650d5e.png` |
+| 9 | 11920 | 3 | mian_lang 1.4, hungry_clicker 1.2, modare 1.3 | `d20f7a92d6.png` |
+| 10 | 11890 | 5 | quasarcake 0.9, u35 1.2, ningen_mame 1.1 | `4a2eb1925b.png` |
+| 11 | 11886 | 7 | yanngoto 1.4, fungi542 1.3, horikoshi_kouhei 1.1 | `b6f6ea06fd.png` |
+| 12 | 11878 | 5 | quan_(kurisu_tina) 1.3, teshima_nari 1.0, wanke 0.9 | `50796a96ad.png` |
+| 13 | 11875 | 6 | yuyuharu_1027 1.8, sakura_hanpen 1.7 | `e9e870a003.png` |
+| 14 | 11868 | 7 | xia_(ryugo) 0.9 | `5439a5cca0.png` |
+| 15 | 11864 | 7 | fugtrup 1.8, xia_(ryugo) 1.7, controlline3 1.5 | `2b1bf58bbe.png` |
+| 16 | 11860 | 6 | touzai_(poppin_phl95) 1.1, torino_aqua 1.1 | `8cd528187a.png` |
+| 17 | 11800 | 5 | pomu_(joynet) 1.7, xia_(ryugo) 0.9, konya_karasue 1.7, akakura 1.7 | `14d3b9cf40.png` |
+| 18 | 11792 | 4 | shigure_s 1.5 | `d5aac33432.png` |
+| 19 | 11790 | 7 | shinjiro 1.1, gomzi 1.0, puuzaki_puuna 1.0 | `dddf69e55f.png` |
+| 20 | 11789 | 7 | mikozin 1.4, ciloranko 1.2, mochizuki_kei 0.8, endou_okito 1.0 | `6b83b79bf0.png` |
+
+## 작가별 신호 (조합 순위로 계산 · 표본이 작아 참고용)
+
+**상위 40개(상위 20%)에 3번 등장**
+
+- `quasarcake` — 전체 3개 조합 중 상위 3개, 평균 순위 4
+- `controlline3` — 전체 5개 조합 중 상위 3개, 평균 순위 47
+- `xia_(ryugo)` — 전체 5개 조합 중 상위 3개, 평균 순위 53
+- `puuzaki_puuna` — 전체 5개 조합 중 상위 3개, 평균 순위 58
+- `kim_hana` — 전체 4개 조합 중 상위 3개, 평균 순위 59
+- `sakura_hanpen` — 전체 5개 조합 중 상위 3개, 평균 순위 66
+
+- 가장 강한 신호: **quasarcake** — 들어간 조합 3개가 모두 상위 10위 안(1위, 2위 단독, 10위)
+- 혼자 쓰여도(단독 조합) 상위 40위 안에 든 작가: quasarcake(2위), cola_(gotouryouta)(7위), xia_(ryugo)(14위), shigure_s(18위), minaba_hideo(21위), sakura_hanpen(27위), controlline3(30위), furau(38위)
+
+**하위 신호** (3개 이상 조합에 들어갔고 평균 순위 140위 밖)
+
+- `96yottea` — 3개, 평균 순위 174
+- `wlop` — 4개, 평균 순위 172
+- `jonpei` — 3개, 평균 순위 171
+- `sangsoo_jeong` — 6개, 평균 순위 170
+- `kittew` — 3개, 평균 순위 168
+- `kieed` — 3개, 평균 순위 166
+- `duckchuni` — 4개, 평균 순위 164
+- `kidmo` — 5개, 평균 순위 163
+- `blackbox_(blackbox9158)` — 3개, 평균 순위 150
+- `sqloveraven` — 3개, 평균 순위 146
+- `keihh` — 3개, 평균 순위 146
+- `mgong520` — 3개, 평균 순위 146
+
+## 해석과 한계 (컨트롤 타워)
+
+- **시드가 하나뿐**이라, 이 순위는 "이 구도·이 얼굴에서 어떤 그림체가 좋았나"이다. 다른 시드에서도 순위가 유지되는지 확인해야 한다
+- 조합마다 대결 수가 3~9번이라 점수가 비슷한 조합끼리의 순서(예: 10위와 20위)는 오차 범위 안일 수 있다
+- 하위권에 반실사·페인터리 계열로 알려진 작가(wlop, sangsoo_jeong 등)가 몰려 있음. "광택 선호(D-005)"가 실사풍 광택을 뜻하지는 않을 수 있다 (**추정** — 그림 확인 전)
+- 다음: 상위 그림과 하위 그림을 직접 보고 공통 특징 정리 → 다른 시드로 상위 조합 재확인
+
