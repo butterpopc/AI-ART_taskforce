@@ -109,3 +109,4 @@ NovelAI 작가 태그 조합의 그림을 **둘씩 나란히 보여주고 마음
 - 설치·사용 안내: 비공개 저장소의 `MOBILE.md`
 - **2026-10-28 방향 전환:** 갤럭시 S21(Android 15)에서 wake lock과 배터리 예외를 다 걸어도 Termux가 통째로 닫힘(실측, 사용자 보고). Termux는 targetSdk 28이라 삼성이 One UI 6부터 약속한 백그라운드 보장(Android 14 기준으로 만든 앱 대상)에서 빠지는 것으로 보임(추정, [dontkillmyapp](https://dontkillmyapp.com/samsung)).
   → **집 PC가 서버, 폰은 브라우저로 접속(Tailscale 사설망)**으로 바꿈. 집 PC의 기존 데이터를 그대로 쓰고, 서버가 켜져 있는 동안 PC 절전을 막음. 안내는 비공개 저장소 `PC_SERVER.md`
+- **2026-10-29:** 집 PC 서버 모드 가동, 폰에서 Tailscale로 접속·로그인 성공 (사용자 보고). Exit node는 쓰지 않음

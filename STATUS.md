@@ -52,7 +52,7 @@
 4. **[사용자 · 다음]** EXP-02 이어서: quasarcake **태그 지배력 시험**. 특정 조합 만들기에 `0.4::artist:quasarcake ::, __random__` × 10, `0.6::artist:quasarcake ::, __random__` × 10 → 배치 대결 ([D-006 수정](decisions/D-006_방향A_quasarcake계열.md))
 4-1. **[Gemini]** [B-007](briefs/B-007_조사_quasarcake유사작가.md) quasarcake 지배력 평판 + A 특징의 비슷한 작가 조사 → R-003
 5. **[사용자 · 다음]** [EXP-03 단독 작가 비교](experiments/EXP-03_단독작가/README.md) — 별도 폴더에서 1명씩 생성 → 갤러리 거르기 → 대결
-6. **[사용자 · 진행 중]** 집 PC 서버 + Tailscale 설정 — 비공개 저장소 `PC_SERVER.md`대로. 폰 단독(Termux)은 갤럭시가 앱을 계속 닫아 예비로 전환 ([T-001 9절](tools/T-001_nai-style-lab.md))
+6. **[사용자]** 집 PC 서버 + Tailscale — **2026-10-29 폰 접속 성공(실측, 사용자 보고)**. 남은 것: 시작 프로그램 등록(PC_SERVER.md 6번), 절전 방지 확인(`powercfg /requests`). 폰 단독(Termux)은 예비
 
 ## 🗂️ 완료된 보조 작업
 
