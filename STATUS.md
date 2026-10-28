@@ -41,7 +41,7 @@
 1. **[사용자]** [B-001](briefs/B-001_실험1_작가비교.md) 실험 1 실행 — **작가 6명**(E·F 추가), 같은 시드, 프롬프트 [P-001 v2](prompts/P-001_화풍비교_기본.md)
 2. **[사용자 → GPT]** 결과 6장 + 시드 + 자동완성 기록 + 한 줄 반응을 GPT에게 → [B-003](briefs/B-003_실무_실험1_정리보조.md)대로 정리
 3. **[사용자 결정]** 비교 도구 [NAI Style Lab 도입 여부](tools/T-001_nai-style-lab.md) — 도입하면 1·2번을 도구 방식(좌/우 고르기)으로 대체
-4. **[사용자 · 다음]** EXP-02 이어서: quasarcake **태그 지배력 시험**. 특정 조합 만들기에 `0.5::artist:quasarcake ::, __random__` × 10, `0.8::artist:quasarcake ::, __random__` × 10 → 배치 대결 ([D-006 수정](decisions/D-006_방향A_quasarcake계열.md))
+4. **[사용자 · 다음]** EXP-02 이어서: quasarcake **태그 지배력 시험**. 특정 조합 만들기에 `0.4::artist:quasarcake ::, __random__` × 10, `0.6::artist:quasarcake ::, __random__` × 10 → 배치 대결 ([D-006 수정](decisions/D-006_방향A_quasarcake계열.md))
 4-1. **[Gemini]** [B-007](briefs/B-007_조사_quasarcake유사작가.md) quasarcake 지배력 평판 + A 특징의 비슷한 작가 조사 → R-003
 5. **[사용자 · 다음]** [EXP-03 단독 작가 비교](experiments/EXP-03_단독작가/README.md) — 별도 폴더에서 1명씩 생성 → 갤러리 거르기 → 대결
 6. **[사용자 · 진행 중]** 집 PC 서버 + Tailscale 설정 — 비공개 저장소 `PC_SERVER.md`대로. 폰 단독(Termux)은 갤럭시가 앱을 계속 닫아 예비로 전환 ([T-001 9절](tools/T-001_nai-style-lab.md))
