@@ -51,7 +51,7 @@
 3. **[사용자 결정]** 비교 도구 [NAI Style Lab 도입 여부](tools/T-001_nai-style-lab.md) — 도입하면 1·2번을 도구 방식(좌/우 고르기)으로 대체
 4. **[사용자 · 다음]** EXP-02 이어서: quasarcake **태그 지배력 시험**. 특정 조합 만들기에 `0.25::artist:quasarcake ::, __random__` × 10, `0.4::artist:quasarcake ::, __random__` × 10 (단독 훑기 뒤에. 가중치는 [R-003](research/R-003_quasarcake유사작가.md)으로 조정) → 배치 대결 ([D-006 수정](decisions/D-006_방향A_quasarcake계열.md))
 4-2. **[사용자 · 진행 중 2026-10-29]** **단독 작가 훑기**: 작가 풀 2 전체(4,451명)를 등록, 조합당 1명·가중치 1.0으로 200장씩 생성 → 갤러리에서 아닌 것 바로 삭제 → 마음에 든 30~50명 추리기 → 그 작가끼리 섞기 → 다른 시드로 확인. (목적: 사용자가 작가 그림체를 몰라서, NovelAI가 각 태그를 어떻게 그리는지 먼저 본다)
-4-1. ~~[Gemini] B-007~~ → [R-003](research/R-003_quasarcake유사작가.md) 수령·판정 완료 (부분 채택: hungry_clicker 유력, kittew 제외)
+4-1. ~~[Gemini] B-007~~ → [R-003](research/R-003_quasarcake유사작가.md) 수령·판정 완료 (부분 채택: quasarcake 0.2~0.4, kittew 제외, 나머지는 단독 훑기 결과로)
 4-3. **[Gemini]** [B-009](briefs/B-009_조사_그림판별자동화.md) 생성 그림 판별 자동화 방법 조사 → R-005. 결과를 보고 컨트롤 타워·GPT가 집 PC에 구현
 5. **[사용자 · 다음]** [EXP-03 단독 작가 비교](experiments/EXP-03_단독작가/README.md) — 별도 폴더에서 1명씩 생성 → 갤러리 거르기 → 대결
 6. **[사용자]** 집 PC 서버 + Tailscale — **2026-10-29 폰 접속 성공(실측, 사용자 보고)**. 남은 것: 시작 프로그램 등록(PC_SERVER.md 6번), 절전 방지 확인(`powercfg /requests`). 폰 단독(Termux)은 예비
