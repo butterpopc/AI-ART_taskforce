@@ -162,3 +162,9 @@ kedama milk, ame (uten cancel), damda, oda non, 6 (yuchae), distr, moyori, eonsa
 - 앞쪽 작가일수록 영향이 강하다: 앞=몸매·구도, 중간=채색·분위기, 뒤=눈·세부
 - 게시물이 많은 작가는 순서와 상관없이 강하게 나온다
 - 비슷한 작가 찾기: nax.moe(작가별 예시 모음), Kaloscope 분류기(그림을 넣으면 비슷한 작가 추정 — 정확하지 않음)
+
+## 작가 풀 2 (2026-10-29)
+
+[GPT 아티스트 지표](../../data/artists/REPORT.md)에서 **이미 등록된 작가(pool1), 흑백·만화 비중이 높은 작가, 표본이 부족한 작가만 빼고** 점수(score_norm) 순으로 정렬했다. 성인 등급으로는 거르지 않았다([RULES 8](../../RULES.md)). Style Lab의 작가 등록 칸에 그대로 붙여 넣는 형식(쉼표 구분, 밑줄 대신 공백)이다.
+- [pool2_추가300.txt](pool2_추가300.txt): 점수 상위 300명
+- [pool2_추가전체.txt](pool2_추가전체.txt): 조건에 맞는 전체 4,451명
