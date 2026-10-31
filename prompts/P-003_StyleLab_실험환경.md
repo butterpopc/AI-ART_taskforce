@@ -58,3 +58,7 @@ lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, 
 2. 얼굴이 잘리거나 손·자세가 어색하지 않은, **구도가 무난한 시드**를 고른다 (예쁜 정도가 아니라 구도 기준)
 3. 그 시드를 도구 설정에 넣고 대결 끝까지 바꾸지 않는다
 4. 시드 하나에 유리한 조합이 생길 수 있으므로, 다듬기 끝의 **다른 시드 3개 확인**으로 보정한다 (도구 기능)
+
+## 실제 적용값 확인 (2026-10-31, 컨트롤 타워)
+
+사용자 state.json(10-31 09:39 사본)의 설정에는 Guidance·Rescale·Steps·대기 값이 저장돼 있지 않았다. 그래서 Style Lab 기본값이 쓰였다(코드 확인: `engine.py` 기본 설정): **Steps 28, Guidance 5.0, Rescale 0.0, 생성 간 대기 1.0초**. 위의 Guidance 6 / Rescale 0.2는 Style Lab 실험(EXP-02, EXP-03)에 **적용되지 않았다.** 모든 그림이 같은 값이라 서로 비교하는 데는 문제없으므로, 진행 중인 실험은 이 값 그대로 유지한다.
