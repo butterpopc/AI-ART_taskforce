@@ -26,6 +26,7 @@
 | N16-상충 | NAI Style Lab은 공백을 **밑줄**로 바꿔 보낸다 (`artist:puuzaki_puuna`). 개발자는 "NovelAI가 받는 형태"라고 주석에 적었고 웹과 같은 그림이 나온다고 주장. 공백/밑줄 둘 다 통하는지는 **미확인** | 코드 확인(도구), 효과 미확인 | 2026-10-26 | [T-001](tools/T-001_nai-style-lab.md) |
 | N17 | `artist:name`과 `artist: name`(콜론 뒤 공백)은 같은 결과 | 커뮤니티 실험 — Gemini R-001, 재확인 불가 | 2026-10-26 | 같은 문서 |
 | N18 | UC 프리셋(V4.5 Full): **Heavy** = lowres, artistic error, film grain, scan artifacts, worst quality, bad quality, jpeg artifacts, very displeasing, chromatic aberration, dithering, halftone, screentone, multiple views, logo, too many watermarks, negative space, blank page / **Light** = Heavy보다 적은 목록 / **Human Focus** = Heavy + @_@, mismatched pupils, glowing eyes, bad anatomy / **Furry Focus** 별도. 권장 프리셋은 기본으로 켜져 있음 | 문서 확인 | 2026-10-26 | [Undesired Content](https://docs.novelai.net/en/image/undesiredcontent) |
+| N19 | 생성 요청을 쉬지 않고 연달아 보내면 NovelAI 서버가 **매크로로 판단해 응답을 거부**한다. NAI Style Lab v4.1.6은 그래서 생성 간 대기를 기본 **3~5초 무작위**로 늘렸다 → 대기를 0으로 줄이지 말 것 | 사용자 전달(원작자·커뮤니티 측 설명) + 코드 확인(4.1.6 기본값 delay 3.0, delay_max 5.0). NovelAI 공식 문서 미확인 | 2026-10-31 | [T-001](tools/T-001_nai-style-lab.md) |
 
 ## 작가 태그 인식 여부
 
