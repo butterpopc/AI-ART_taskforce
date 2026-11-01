@@ -51,3 +51,24 @@
 ## 다음 단계 (예정)
 
 상위 15~20명만 기존 폴더(EXP-02)에 등록 → 데이터만 초기화 → 조합당 2~4명으로 조합·진화
+
+## 좋아요 113명 묶어 보기 (2026-11-01, 컨트롤 타워가 썸네일 4장에 모아 직접 봄)
+
+> 썸네일(작은 그림)만 보고 판단한 **추정**이다. 모든 그림이 같은 프롬프트·시드라 차이가 작고, 원본 크기로 보면 달라질 수 있다.
+
+**공통점 (113장 대부분)**
+- 선: **깔끔하고 가는 선**이 다수. 스케치풍 거친 선은 소수(quasarcake, kupa_(jesterwii), buzzlyears, nploser, miata_(miata8674) 정도)
+- 칠: 셀 칠 + 부드러운 그라데이션 혼합. **피부에 강한 하이라이트(어깨·쇄골·가슴의 광택)** 가 거의 공통
+- 얼굴: 성숙한 인상, 가늘거나 반쯤 감긴 눈, 옅은 미소, 볼 홍조. 아이 같은 큰 눈은 드묾
+- 장신구(귀걸이·목걸이)를 정성 들여 그린 그림이 많음
+- 배경: 밝은 회색·베이지 단색. 반실사·데포르메는 없음
+
+**→ D-006(방향 A: 스케치풍 선 + 강한 명암·광택)과 비교:** 광택·명암은 맞고, **"스케치풍 선"은 113명에서 소수**. 선은 깔끔한 쪽이 실제 취향일 수 있음 (사용자 확인 필요)
+
+**대략의 무리 (추정, 겹침 있음)**
+| 무리 | 특징 | 예 |
+|---|---|---|
+| 1 광택 강한 입체 | 피부·옷 광택 최대, 부드러운 명암 | andou_you, ishihara_masumi, rkrk12, redjet, teddypocky, rourou_(been), hisasi, cluseller, haneramu, kyouda_suzuka, shiki_(psychedelic_g2), akizuki_shigure, rotix, togetoge_(jakusanseimk2), miko_(royal_milk) |
+| 2 깔끔한 셀 애니풍 | 또렷한 외곽선, 명암 단순, 단정한 얼굴 | helloimtea, koissa, sakuragi_ren, parororo, tsukino_(nakajimaseiki), masuishi_kinoto, sekina, horosuke, gabiran, hayabusa_(vert_320), aikir_(jml5160), bosshi |
+| 3 빛·분위기 회화풍 | 역광·림라이트, 부드러운 색 번짐 | quasarcake, saraki, comah, yuihira_asu, nanaken_nana, konomi_(kino_konomi), momoko_(momopoco), kasumi_saika, chinchongcha, shiseki_hirame |
+| 4 진한 잉크·그래픽 | 검은 면·굵은 선, 대비 강함 | nploser, makinaru, miata_(miata8674), kupa_(jesterwii), buzzlyears, m-da_s-tarou, ixy |
