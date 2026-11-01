@@ -28,3 +28,15 @@
 ## 3D 단계 참고용 (사용자 지시, 2026-11-01)
 - **그림 3 (V5):** 작가 `0.5::ebora, 0.6::geulimykun (skbyunea413), 0.8::shinjiro, 0.6::wagashi (dagashiya), 0.8::freng, 0.9::toma (toma50), 1::dkclaude3d, 1::takano suzu` + 렌더 태그 `3::cel rendering, 2::4k texture, 3d, 5::ray tracing, raytraced, 1.25::blender (medium), Zbrush (Medium)` · 23 steps · Guidance 7 · Rescale 0.4 · k_euler_ancestral
 - 사용자: "3D화 할 때 참고하면 좋겠다". 2D 그림체를 3D 렌더 느낌으로 옮기는 태그 묶음으로 활용 (로드맵 4단계)
+
+## 추가 2장 (2026-11-01 22시, 둘 다 V5)
+- **그림 7 (흰 머리 안드로이드, 선화 위주·거의 무채색):** `0.5::henriiku (ahemaru), 0.4::shexyo, 0.5::geulimykun (skbyunea413), 0.6::wagashi (dagashiya), 0.6::pumpkinspicelatte, 0.3::fellatrix, 0.7::seoyong, 0.4::kunaboto, 0.4::kafun, 0.6::poper (arin sel), 0.55::blue gk, 0.8::toma (toma50), 1::takano suzu` + `2::flat color` · 23 steps · Guidance 7 · Rescale 0.4 · k_euler_ancestral
+- **그림 8 (갈색 긴 머리 뒷모습, 창가 역광·수채 느낌):** `0.9::blue_gk, 0.6::eleaaa, 0.5::nixeu, 0.3::freng, 0.2::wlop, 0.9::bm94199, 0.3::matanonki, 0.6::greem_bang, 0.3::inushima, 0.4::marushin_(denwa0214), 'o'ne, zon_lee_sean, xi_xeong, 0.8::takaman_(gaffe)` · 23 steps · Guidance 7 · Rescale 0 · k_euler_ancestral
+
+## 여러 레시피에 반복해서 나오는 작가 (8장 기준, 실측)
+| 작가 | 나온 그림 수 |
+|---|---|
+| blue gk | 3 (가중치 0.2~0.9) |
+| toma (toma50) | 3 (0.01~0.9) |
+| takano suzu · geulimykun · wagashi (dagashiya) · freng · bm94199 · healthyman · wanke · ebora | 각 2 |
+→ 커뮤니티에서 "받침용"으로 자주 섞는 작가로 추정. 단독 훑기에서 좋아요는 없었음
