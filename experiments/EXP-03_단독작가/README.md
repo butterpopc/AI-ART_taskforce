@@ -76,7 +76,7 @@
 ### 사용자 선정 28명 (2026-11-01) — 2단계 조합 후보
 
 사용자가 2번 무리(깔끔한 셀 애니풍)를 고르고 113명 중 28명을 뽑음. 컨트롤 타워 분류(추정):
-- **선·얼굴 (2번 무리) 15명:** horosuke, koissa, momoshiki_tsubaki, helloimtea, hayabusa_(vert_320), sakuragi_ren, sumiyao_(amam), yuya_(night_lily), shiseki_hirame, aki663, sekina, gijang, achiki, ogami_kazuki, ookuma_nekosuke, mijikayo (mijikayo는 1·2 경계)
+- **선·얼굴 (2번 무리) 16명:** horosuke, koissa, momoshiki_tsubaki, helloimtea, hayabusa_(vert_320), sakuragi_ren, sumiyao_(amam), yuya_(night_lily), shiseki_hirame, aki663, sekina, gijang, achiki, ogami_kazuki, ookuma_nekosuke, mijikayo (mijikayo는 1·2 경계)
 - **광택 (1번 무리) 8명:** satou_kuuki, rkrk12, teddypocky, bitseon, g_(genesis1556), shiki_(psychedelic_g2), taketora_suzume, saihate_(d3)
 - **빛·분위기 (3번 무리) 4명:** quasarcake, nanaken_nana, torino_aqua, ks_(xephyrks)
 
