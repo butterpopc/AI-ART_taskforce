@@ -24,3 +24,7 @@
 
 ## 다음 (제안)
 - 그림 2·5의 V4.5 레시피를 **우리 시험 캐릭터 프롬프트로 바꿔** 몇 장 그려 보고, 그림체가 살아남는지 확인
+
+## 3D 단계 참고용 (사용자 지시, 2026-11-01)
+- **그림 3 (V5):** 작가 `0.5::ebora, 0.6::geulimykun (skbyunea413), 0.8::shinjiro, 0.6::wagashi (dagashiya), 0.8::freng, 0.9::toma (toma50), 1::dkclaude3d, 1::takano suzu` + 렌더 태그 `3::cel rendering, 2::4k texture, 3d, 5::ray tracing, raytraced, 1.25::blender (medium), Zbrush (Medium)` · 23 steps · Guidance 7 · Rescale 0.4 · k_euler_ancestral
+- 사용자: "3D화 할 때 참고하면 좋겠다". 2D 그림체를 3D 렌더 느낌으로 옮기는 태그 묶음으로 활용 (로드맵 4단계)
