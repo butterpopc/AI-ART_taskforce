@@ -40,3 +40,9 @@
 | toma (toma50) | 3 (0.01~0.9) |
 | takano suzu · geulimykun · wagashi (dagashiya) · freng · bm94199 · healthyman · wanke · ebora | 각 2 |
 → 커뮤니티에서 "받침용"으로 자주 섞는 작가로 추정. 단독 훑기에서 좋아요는 없었음
+
+## garloo (사용자 제보, 2026-11-01)
+- 커뮤니티 평: "단독으로 좋다" (미확인 전언)
+- 받은 그림의 숨은 프롬프트(실측): **V5**, `artist:garloo` 단독 + `animated, promotional art, novel illustration, transparent background` · 28 steps · Guidance 5 · Rescale 0 · k_euler_ancestral
+- 인상(추정): 굵고 깔끔한 외곽선, 단순한 셀 칠, 스티커풍 흰 테두리 → 사용자가 고른 "2번 무리(깔끔한 셀)"와 같은 방향
+- **우리 작가 풀(4,516명)에 없던 작가** → V4.5 + 시험 캐릭터 프롬프트로 단독 1장, shiseki_hirame와 2명 조합으로 시험 예정
