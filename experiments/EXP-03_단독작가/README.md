@@ -105,3 +105,20 @@
 - quasarcake: 0.4일 때 좋아요 5/9, 0.3일 때 3/14 → **0.4 쪽이 나아 보임** (표본 작음, 추정)
 - 광택 강한 작가(rkrk12·shiki·teddypocky)는 혼자일 땐 좋았지만 **섞으면 싫어요가 많음** — 다른 작가를 덮는 것으로 추정
 - 좋아요 35장의 인상(컨트롤 타워, 추정): ① shiseki 계열 — 가는 선, 차분한 회청색 톤, 부드럽고 낮은 대비 ② torino·ks·nanaken·achiki 계열 — 조금 더 따뜻하고 빛 대비가 있는 쪽
+
+### 3단계: 11명 3명 조합 (2026-11-01, 실측)
+- 200장 → 순서만 바뀐 중복 79장 제외, 121개(165가지 중 73%). quasarcake 0.4 고정
+- 사용자 표시: 좋아요 28 · 싫어요 0 (이번엔 좋아요만 표시)
+
+| 작가 | 좋아요 / 등장 |
+|---|---|
+| shiseki_hirame | **13 / 30** |
+| mijikayo | **11 / 32** |
+| quasarcake (0.4) | **10 / 36** |
+| hayabusa · aki663 · achiki · saihate | 8 / 32~35 |
+| nanaken_nana | 7 / 36 |
+| torino_aqua | 5 / 29 |
+| gijang · ks_(xephyrks) | 3 / 31~35 |
+
+- 잘 맞는 짝 (좋아요 4): shiseki+mijikayo, shiseki+nanaken, shiseki+saihate, shiseki+aki663, shiseki+quasarcake, mijikayo+achiki, mijikayo+quasarcake
+- 인상(추정): 28장이 서로 꽤 닮음 — 가는 깔끔한 선, 부드러운 명암, 적당한 광택, 푸른빛 도는 흑발. **"우리 그림체"의 윤곽이 잡히기 시작**
