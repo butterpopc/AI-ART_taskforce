@@ -72,3 +72,12 @@
 | 2 깔끔한 셀 애니풍 | 또렷한 외곽선, 명암 단순, 단정한 얼굴 | helloimtea, koissa, sakuragi_ren, parororo, tsukino_(nakajimaseiki), masuishi_kinoto, sekina, horosuke, gabiran, hayabusa_(vert_320), aikir_(jml5160), bosshi |
 | 3 빛·분위기 회화풍 | 역광·림라이트, 부드러운 색 번짐 | quasarcake, saraki, comah, yuihira_asu, nanaken_nana, konomi_(kino_konomi), momoko_(momopoco), kasumi_saika, chinchongcha, shiseki_hirame |
 | 4 진한 잉크·그래픽 | 검은 면·굵은 선, 대비 강함 | nploser, makinaru, miata_(miata8674), kupa_(jesterwii), buzzlyears, m-da_s-tarou, ixy |
+
+### 사용자 선정 28명 (2026-11-01) — 2단계 조합 후보
+
+사용자가 2번 무리(깔끔한 셀 애니풍)를 고르고 113명 중 28명을 뽑음. 컨트롤 타워 분류(추정):
+- **선·얼굴 (2번 무리) 15명:** horosuke, koissa, momoshiki_tsubaki, helloimtea, hayabusa_(vert_320), sakuragi_ren, sumiyao_(amam), yuya_(night_lily), shiseki_hirame, aki663, sekina, gijang, achiki, ogami_kazuki, ookuma_nekosuke, mijikayo (mijikayo는 1·2 경계)
+- **광택 (1번 무리) 8명:** satou_kuuki, rkrk12, teddypocky, bitseon, g_(genesis1556), shiki_(psychedelic_g2), taketora_suzume, saihate_(d3)
+- **빛·분위기 (3번 무리) 4명:** quasarcake, nanaken_nana, torino_aqua, ks_(xephyrks)
+
+→ 2번이 중심이지만 광택 작가도 함께 골랐다. "2번 선 + 1번 광택" 조합 방향과 맞는다.
