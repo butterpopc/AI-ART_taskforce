@@ -122,3 +122,13 @@
 
 - 잘 맞는 짝 (좋아요 4): shiseki+mijikayo, shiseki+nanaken, shiseki+saihate, shiseki+aki663, shiseki+quasarcake, mijikayo+achiki, mijikayo+quasarcake
 - 인상(추정): 28장이 서로 꽤 닮음 — 가는 깔끔한 선, 부드러운 명암, 적당한 광택, 푸른빛 도는 흑발. **"우리 그림체"의 윤곽이 잡히기 시작**
+
+### 1단계 최종 후보 레시피 4개 (사용자 선택, 2026-11-01)
+| 후보 | 작가 (가중치 1.0, quasarcake만 0.4) |
+|---|---|
+| R1 | aki663 + gijang + shiseki_hirame |
+| R2 | achiki + mijikayo + saihate_(d3) |
+| R3 | ks_(xephyrks) + quasarcake(0.4) + shiseki_hirame |
+| R4 | nanaken_nana + quasarcake(0.4) + shiseki_hirame |
+- 4개 중 3개에 shiseki_hirame. 통계상 약했던 gijang·ks도 사용자 눈으로는 뽑힘
+- 다음: 같은 시드로 장면 3개(전신 / 누워서 위에서 / 창가 역광)에서 그림체 유지 확인
